@@ -1,0 +1,6 @@
+Service was terrible ; the staff seemed indifferent to our needs .####[([0], 'NEG')]
+I am quite dissatisfied with the system's performance ; it falls short of my requirements .####[([6, 7], 'NEG')]
+The movie was bland and I probably didn't want to watch it a second time. ####[([1], 'NEU')]
+Loving the latest release songs from Taylor Swift! Can't get enough of it, play it on repeat now .####[([4], 'POS')]
+Recently developed software is mediocre. ####[([2], 'NEU')]
+This book is wonderful ; I wanted to explore more of the work of this talented writer .####[([1], 'POS'), ([16], 'POS')]

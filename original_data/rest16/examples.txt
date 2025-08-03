@@ -1,0 +1,8 @@
+Service was terrible ; the staff seemed indifferent to our needs .####[([0], [2], 'NEG')]
+I am quite dissatisfied with the system's performance ; it falls short of my requirements .####[([6, 7], [3], 'NEG')]
+The movie was bland and I probably didn't want to watch it a second time. ####[([1], [3], 'NEU')]
+The music was too loud ; it made me feel very noisy .####[([1], [11], 'NEG')]
+The restaurant is quiet and reminiscent of a casual dinner setting .####[([1], [3], 'NEU')]
+Loving the latest release songs from Taylor Swift! Can't get enough of it, play it on repeat now .####[([4], [0], 'POS')]
+This book is wonderful ; I wanted to explore more of the work of this talented writer .####[([1], [3], 'POS'), ([16], [15], 'POS')]
+The dish is mouth-watering; I want to taste every bite now !####[([1], [3], 'POS')]
