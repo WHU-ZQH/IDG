@@ -1,5 +1,22 @@
-# IDG
+# Iterative Data Generation with Large Language Models for Aspect-based Sentiment Analysis
+----
 
+## Requirements
+----
+* Python 3.10
+* jsonlines
+* tqdm
+* nltk
+* openai 0.28.2
+
+## Dataset 
+We conduct the main experiments on 4 widely-used ABSA benchmarks: Laptop14, Restaurant14, Restaurant15 and Restaurant16.
+
+- Original data: "./original_data/"
+- Generated data: "./pseudo_data/"
+
+## How to run
+- 
 IDG data generation: 
 
 ``` sh
@@ -16,4 +33,15 @@ python data_generate.py \
                       "./aspect_set/laptop14/laptop_process_pos.txt"
 ```
 
-generated data in pseudo_data/
+## Citation
+
+If you find this useful in your research, please consider citing:
+
+```
+@article{zhong2024iterative,
+  title={Iterative data generation with large language models for aspect-based sentiment analysis},
+  author={Zhong, Qihuang and Li, Haiyun and Gong, Jinzhao and Liu, Juhua and Du, Bo},
+  journal={arXiv preprint arXiv:2407.00341},
+  year={2024}
+}
+```
