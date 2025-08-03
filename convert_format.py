@@ -53,22 +53,22 @@ def process_jsonl_files(input_files, output_file):
 
 if __name__ == '__main__':
     process_jsonl_files([
-        'out/laptop/aspect_1_model_qwen-plus/length_15_threshold_6.0_0708_1602/data.jsonl',
-        'out/laptop/aspect_2_model_qwen-plus/length_20_threshold_6.0_0708_1902/data.jsonl',
-        'out/laptop/aspect_3_model_qwen-plus/length_25_threshold_6.0_0708_1902/data.jsonl',
+        'out/laptop/aspect_1_model_gpt3.5/length_15_threshold_6.0_0708_1602/data.jsonl',
+        'out/laptop/aspect_2_model_gpt3.5/length_20_threshold_6.0_0708_1902/data.jsonl',
+        'out/laptop/aspect_3_model_gpt3.5/length_25_threshold_6.0_0708_1902/data.jsonl',
     ], './pseudo_data/laptop14_generated.raw')
     process_jsonl_files([
-        'out/rest14/aspect_1_model_qwen-plus/length_15_threshold_6.0_0708_1902/data.jsonl',
-        'out/rest14/aspect_2_model_qwen-plus/length_20_threshold_6.0_0708_1902/data.jsonl',
-        'out/rest14/aspect_3_model_qwen-plus/length_25_threshold_6.0_0708_1902/data.jsonl',
+        'out/rest14/aspect_1_model_gpt3.5/length_15_threshold_6.0_0708_1902/data.jsonl',
+        'out/rest14/aspect_2_model_gpt3.5/length_20_threshold_6.0_0708_1902/data.jsonl',
+        'out/rest14/aspect_3_model_gpt3.5/length_25_threshold_6.0_0708_1902/data.jsonl',
     ], './pseudo_data/rest14_generated.raw')
     process_jsonl_files([
-        'out/rest15/aspect_1_model_qwen-plus/length_15_threshold_6.0_0709_0951/data.jsonl',
-        'out/rest15/aspect_2_model_qwen-plus/length_20_threshold_6.0_0709_1600/data.jsonl',
-        'out/rest15/aspect_3_model_qwen-plus/length_25_threshold_6.0_0709_1600/data.jsonl',
+        'out/rest15/aspect_1_model_gpt3.5/length_15_threshold_6.0_0709_0951/data.jsonl',
+        'out/rest15/aspect_2_model_gpt3.5/length_20_threshold_6.0_0709_1600/data.jsonl',
+        'out/rest15/aspect_3_model_gpt3.5/length_25_threshold_6.0_0709_1600/data.jsonl',
     ], './pseudo_data/rest15_generated.raw')
     process_jsonl_files([
-        'out/rest16/aspect_1_model_qwen-plus/length_15_threshold_6.0_0708_2228/data.jsonl',
-        'out/rest16/aspect_2_model_qwen-plus/length_20_threshold_6.0_0708_2228/data.jsonl',
-        'out/rest16/aspect_3_model_qwen-plus/length_25_threshold_6.0_0709_0951/data.jsonl',
+        'out/rest16/aspect_1_model_gpt3.5/length_15_threshold_6.0_0708_2228/data.jsonl',
+        'out/rest16/aspect_2_model_gpt3.5/length_20_threshold_6.0_0708_2228/data.jsonl',
+        'out/rest16/aspect_3_model_gpt3.5/length_25_threshold_6.0_0709_0951/data.jsonl',
     ], './pseudo_data/rest16_generated.raw')
