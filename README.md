@@ -1,8 +1,6 @@
 # Iterative Data Generation with Large Language Models for Aspect-based Sentiment Analysis
-----
 
 ## Requirements
-----
 * Python 3.10
 * jsonlines
 * tqdm
@@ -16,8 +14,8 @@ We conduct the main experiments on 4 widely-used ABSA benchmarks: Laptop14, Rest
 - Generated data: "./pseudo_data/"
 
 ## How to run
-- 
-IDG data generation: 
+
+1. IDG data generation: 
 
 ``` sh
 python data_generate.py \
@@ -31,6 +29,15 @@ python data_generate.py \
     --aspect_set_path "./aspect_set/laptop14/laptop_process_neg.txt" \
                       "./aspect_set/laptop14/laptop_process_neu.txt" \
                       "./aspect_set/laptop14/laptop_process_pos.txt"
+
+```
+
+2. Model training: 
+
+After obtaining the generated ABSA data, you can easily train the models with the existing training frameworks. Taking the popular [ABSA-Pytorch](https://github.com/songyouwei/ABSA-PyTorch) framework as an example, you can convert the data format by running the following script.
+
+``` sh
+python convert_format.py
 ```
 
 ## Citation
