@@ -18,12 +18,7 @@ def count_categories(file_path):
     print(f'| {category_counts['1']}  | {category_counts["0"]}   | {category_counts['-1']}  | {category_counts['1'] + category_counts['0'] + category_counts['-1']}  |')
 
 
-if __name__ == "__main__":
-    # root = 'generated_data'
-    # for data in ['IterD', 'gpt-3.5-turbo', 'gpt-4o-mini', 'deepseek-v3', 'qwen-plus']:
-    #     for file in ['laptop14_generated.raw', 'rest14_generated.raw', 'rest15_generated.raw', 'rest16_generated.raw']:
-    #         count_categories(os.path.join(root, data, file))
-    
+if __name__ == "__main__":    
     root = 'pseudo_data'
     for file in ['laptop14_generated.raw', 'rest14_generated.raw', 'rest15_generated.raw', 'rest16_generated.raw']:
         count_categories(os.path.join(root, file))
